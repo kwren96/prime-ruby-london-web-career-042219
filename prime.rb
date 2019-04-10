@@ -1,12 +1,6 @@
 # Add  code here!
 def prime?(num)
-root = Math.sqrt(num)
-array = [2..root]
-  if num <= 1 
-    return false
-  elsif 
-   array.each{|i| num % i == 0 return false}
-else
-  return true
-end
+  return false if num <= 1
+  Math.sqrt(num).to_i.downto(2).each {|i| return false if num % i == 0}
+  true
 end
