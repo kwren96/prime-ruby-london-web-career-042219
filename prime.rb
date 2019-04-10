@@ -1,8 +1,7 @@
 # Add  code here!
 def prime?(num)
 root = Math.sqrt(num)
-array = 
-  to_i.downto(2).each
+array = [2..root]
   if num <= 1 
     return false
   elsif 
