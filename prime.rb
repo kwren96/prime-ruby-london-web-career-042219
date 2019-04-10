@@ -5,8 +5,7 @@ array = [2..root]
   if num <= 1 
     return false
   elsif 
-   array.each {|i| return false if num % i == 0}
-   return false
+   array.each{|i| num % i == 0 return false}
 else
   return true
 end
