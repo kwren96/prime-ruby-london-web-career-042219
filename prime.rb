@@ -9,3 +9,4 @@ array = [2..root]
 else
   return true
 end
+end
